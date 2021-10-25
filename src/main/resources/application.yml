@@ -2,5 +2,8 @@ spring:
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/spring_test
-    username: matsu3
-    password: #1355411Mk
+    username: root
+    password: 1355411Mk#
+  sql:
+    init:
+      mode: always
