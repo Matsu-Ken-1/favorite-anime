@@ -14,6 +14,10 @@
   <body>
     <div class="container">
     	<h1>Hello, world!</h1>
+    	<form action="/search" method="get" th:object="${animeCondition}">
+	    	<input type="text" th:field="*{title}">
+	    	<input type="submit" value="検索">
+    	</form>
 	    <table class="table">
 		  <thead>
 		    <tr>
